@@ -1,0 +1,30 @@
+{
+  "name": "piper",
+  "version": "0.0.1",
+  "description": "A function that pipes streams",
+  "keywords": [],
+  "author": "Raynos <raynos2@gmail.com>",
+  "repository": "git://github.com/Raynos/piper.git",
+  "main": "index",
+  "homepage": "https://github.com/Raynos/piper",
+  "contributors": [
+    {
+      "name": "Jake Verbaten"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/Raynos/piper/issues",
+    "email": "raynos2@gmail.com"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "through": "~0.1.4"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/Raynos/piper/raw/master/LICENSE"
+    }
+  ],
+  "scripts": {}
+}
