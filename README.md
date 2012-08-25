@@ -1,4 +1,4 @@
-# piper
+# pipe-stream
 
 A function that pipes streams
 
@@ -6,7 +6,7 @@ A function that pipes streams
 
 ``` js
 var net = require("net")
-    , piper = require("../index")
+    , piper = require("pipe-stream")
     , through = require("through")
 
 net.createServer(piper(through)).listen(12632, function () {
@@ -22,7 +22,7 @@ net.createServer(piper(through)).listen(12632, function () {
 
 ## Installation
 
-`npm install piper`
+`npm install pipe-stream`
 
 ## Contributors
 
